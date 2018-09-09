@@ -1,0 +1,35 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Fri Sep 07 14:36:40 2018
+
+LISTING FOR SIMULATION FILE: LAB1.si
+
+   1: Name     Lab1;
+   2: PartNo   00;
+   3: Date     9/7/2018;
+   4: Revision 01;
+   5: Designer Vikrant Waje;
+   6: Company  University of Colorado Boulder;
+   7: Assembly None;
+   8: Location ;
+   9: Device   g16v8a;
+  10: 
+  11: 
+  12: ORDER: A12, A13, A14, A15, !CSPERIPH, PSEN, RD, !READ; 
+  13: 
+  14: 
+
+=================
+          !      
+          C      
+          S      
+          P      
+          E  !   
+          RP R   
+      AAAAIS E   
+      1111PERA   
+      2345HNDD   
+=================
+0001: 0000H10L
+0002: 1010H11H

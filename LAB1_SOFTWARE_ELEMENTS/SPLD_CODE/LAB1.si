@@ -1,0 +1,17 @@
+Name     Lab1;
+PartNo   00;
+Date     9/7/2018;
+Revision 01;
+Designer Vikrant Waje;
+Company  University of Colorado Boulder;
+Assembly None;
+Location ;
+Device   g16v8a;
+
+
+ORDER: A12, A13, A14, A15, !CSPERIPH, PSEN, RD, !READ; 
+
+
+VECTORS:
+0000*10*
+1010*11*

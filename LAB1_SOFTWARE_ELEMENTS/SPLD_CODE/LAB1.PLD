@@ -1,0 +1,30 @@
+Name     Lab1 ;
+PartNo   00 ;
+Date     9/7/2018 ;
+Revision 01 ;
+Designer Vikrant Waje ;
+Company  University of Colorado Boulder ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN 2    = A15                        ; /* Pin 2 given A15 address line      */ 
+PIN 3    = A14                        ; /* Pin 3 given A14 address line                                */ 
+PIN 5    = A13                        ; /* Pin 5 given A13 address line                                */ 
+PIN 6    = A12                        ; /* Pin 6 given A12 address line                                */ 
+PIN 7    = RD                        ; /*  Pin 7 given Read signal from processor                      */ 
+PIN 8    = PSEN                        ; /*Pin 8 given PSEN signal from processor                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 19    = READ                        ; /* Pin 19 is output as READ signal of SPLD                                 */ 
+PIN 18    = CSPERIPH                        ; /* Pin 18 is output as CSPERIPH signal of SPLD                                 */ 
+
+/* *************** EQUATIONS *********************/
+
+!READ = RD & PSEN ;
+!CSPERIPH = !(A15 & A14 & A13 & A12);                                
+
+
+
+
